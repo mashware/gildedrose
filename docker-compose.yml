@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+    kata_rose:
+        build:
+          context: docker
+        container_name: kata_rose
+        volumes:
+            - ./:/var/www/html

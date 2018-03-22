@@ -1,0 +1,25 @@
+{
+    "name": "Gilded Rose",
+    "license": "proprietary",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Juan Gabriel Rodríguez Carrión",
+            "email": "juan.rodriguez@pccomponentes.com",
+            "homepage": "https://www.jlabstudio.com/webgl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kata\\": "src/",
+            "Kata\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.1",
+        "phpunit/phpunit": "6.5.5"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
